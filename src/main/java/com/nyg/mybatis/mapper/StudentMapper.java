@@ -12,8 +12,7 @@ import com.nyg.mybatis.domain.Student;
 public interface StudentMapper {
 	
 	List<Student> findAll();
-// 	@Select("SELECT * FROM student WHERE id = #{id}")
-//	Student findById(Long id);
+
 	
 	Student findById(Long id);
 	
