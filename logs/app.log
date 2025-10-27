@@ -489,3 +489,69 @@ org.springframework.context.annotation.ConflictingBeanDefinitionException: Annot
 2025-10-27T12:52:33.245+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-10] c.n.m.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM student ORDER BY id DESC
 2025-10-27T12:52:33.246+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-10] c.n.m.mapper.StudentMapper.findAll       : ==> Parameters: 
 2025-10-27T12:52:33.246+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-10] c.n.m.mapper.StudentMapper.findAll       : <==      Total: 3
+2025-10-27T15:05:55.058+09:00  INFO 1524 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Starting Ex25BranchApplication using Java 21.0.8 with PID 1524 (D:\s09_springboot\day04_1027\ex25-branch\bin\main started by YONSAI in D:\s09_springboot\day04_1027\ex25-branch)
+2025-10-27T15:05:55.059+09:00 DEBUG 1524 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-10-27T15:05:55.059+09:00  INFO 1524 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T15:05:55.082+09:00  INFO 1524 --- [ex25-branch] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-27T15:05:55.082+09:00  INFO 1524 --- [ex25-branch] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-27T15:05:55.651+09:00  INFO 1524 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8020 (http)
+2025-10-27T15:05:55.660+09:00  INFO 1524 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T15:05:55.660+09:00  INFO 1524 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T15:05:55.685+09:00  INFO 1524 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T15:05:55.685+09:00  INFO 1524 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 602 ms
+2025-10-27T15:05:56.084+09:00  INFO 1524 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T15:05:56.107+09:00  INFO 1524 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8020 (http) with context path '/'
+2025-10-27T15:05:56.112+09:00  INFO 1524 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Started Ex25BranchApplication in 1.296 seconds (process running for 1.689)
+2025-10-27T15:06:04.757+09:00  INFO 1524 --- [ex25-branch] [http-nio-8020-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T15:06:04.758+09:00  INFO 1524 --- [ex25-branch] [http-nio-8020-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T15:06:04.758+09:00  INFO 1524 --- [ex25-branch] [http-nio-8020-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-27T15:06:04.775+09:00  INFO 1524 --- [ex25-branch] [http-nio-8020-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T15:06:04.844+09:00  INFO 1524 --- [ex25-branch] [http-nio-8020-exec-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@40f71b2c
+2025-10-27T15:06:04.845+09:00  INFO 1524 --- [ex25-branch] [http-nio-8020-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T15:11:06.574+09:00  INFO 1524 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-10-27T15:11:06.576+09:00  INFO 1524 --- [ex25-branch] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T15:11:06.578+09:00  INFO 1524 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T15:11:06.581+09:00  INFO 1524 --- [ex25-branch] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T15:11:06.582+09:00  INFO 1524 --- [ex25-branch] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T15:11:06.649+09:00  INFO 1524 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Starting Ex25BranchApplication using Java 21.0.8 with PID 1524 (D:\s09_springboot\day04_1027\ex25-branch\bin\main started by YONSAI in D:\s09_springboot\day04_1027\ex25-branch)
+2025-10-27T15:11:06.649+09:00 DEBUG 1524 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-10-27T15:11:06.649+09:00  INFO 1524 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T15:11:06.769+09:00  INFO 1524 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8020 (http)
+2025-10-27T15:11:06.770+09:00  INFO 1524 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T15:11:06.770+09:00  INFO 1524 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T15:11:06.780+09:00  INFO 1524 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T15:11:06.780+09:00  INFO 1524 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 130 ms
+2025-10-27T15:11:06.856+09:00  INFO 1524 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T15:11:06.862+09:00  INFO 1524 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8020 (http) with context path '/'
+2025-10-27T15:11:06.864+09:00  INFO 1524 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Started Ex25BranchApplication in 0.229 seconds (process running for 312.441)
+2025-10-27T15:11:06.865+09:00  INFO 1524 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T15:12:13.281+09:00  INFO 1524 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-10-27T15:12:13.282+09:00  INFO 1524 --- [ex25-branch] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T15:12:13.283+09:00  INFO 1524 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T15:12:13.358+09:00  INFO 1524 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Starting Ex25BranchApplication using Java 21.0.8 with PID 1524 (D:\s09_springboot\day04_1027\ex25-branch\bin\main started by YONSAI in D:\s09_springboot\day04_1027\ex25-branch)
+2025-10-27T15:12:13.358+09:00 DEBUG 1524 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-10-27T15:12:13.358+09:00  INFO 1524 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T15:12:13.473+09:00  INFO 1524 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8020 (http)
+2025-10-27T15:12:13.474+09:00  INFO 1524 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T15:12:13.474+09:00  INFO 1524 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T15:12:13.482+09:00  INFO 1524 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T15:12:13.482+09:00  INFO 1524 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 123 ms
+2025-10-27T15:12:13.551+09:00  INFO 1524 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T15:12:13.557+09:00  INFO 1524 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8020 (http) with context path '/'
+2025-10-27T15:12:13.559+09:00  INFO 1524 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Started Ex25BranchApplication in 0.215 seconds (process running for 379.136)
+2025-10-27T15:12:13.560+09:00  INFO 1524 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T15:15:07.548+09:00  INFO 1524 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-10-27T15:15:07.549+09:00  INFO 1524 --- [ex25-branch] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T15:15:07.551+09:00  INFO 1524 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T15:15:07.589+09:00  INFO 1524 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Starting Ex25BranchApplication using Java 21.0.8 with PID 1524 (D:\s09_springboot\day04_1027\ex25-branch\bin\main started by YONSAI in D:\s09_springboot\day04_1027\ex25-branch)
+2025-10-27T15:15:07.589+09:00 DEBUG 1524 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-10-27T15:15:07.589+09:00  INFO 1524 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T15:15:07.716+09:00  INFO 1524 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8020 (http)
+2025-10-27T15:15:07.717+09:00  INFO 1524 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T15:15:07.718+09:00  INFO 1524 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T15:15:07.727+09:00  INFO 1524 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T15:15:07.727+09:00  INFO 1524 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 136 ms
+2025-10-27T15:15:07.816+09:00  INFO 1524 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T15:15:07.823+09:00  INFO 1524 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8020 (http) with context path '/'
+2025-10-27T15:15:07.824+09:00  INFO 1524 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Started Ex25BranchApplication in 0.25 seconds (process running for 553.401)
+2025-10-27T15:15:07.825+09:00  INFO 1524 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
