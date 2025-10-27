@@ -1,0 +1,491 @@
+2025-10-27T12:37:37.257+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Starting Ex25BranchApplication using Java 21.0.8 with PID 4224 (D:\s09_springboot\day04_1027\ex25-branch\bin\main started by YONSAI in D:\s09_springboot\day04_1027\ex25-branch)
+2025-10-27T12:37:37.258+09:00 DEBUG 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-10-27T12:37:37.259+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T12:37:37.284+09:00  INFO 4224 --- [ex25-branch] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-27T12:37:37.286+09:00  INFO 4224 --- [ex25-branch] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-27T12:37:37.893+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8020 (http)
+2025-10-27T12:37:37.902+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T12:37:37.902+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T12:37:37.927+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T12:37:37.927+09:00  INFO 4224 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 641 ms
+2025-10-27T12:37:38.336+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T12:37:38.358+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8020 (http) with context path '/'
+2025-10-27T12:37:38.364+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Started Ex25BranchApplication in 1.362 seconds (process running for 1.78)
+2025-10-27T12:39:19.643+09:00  INFO 4224 --- [ex25-branch] [http-nio-8020-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T12:39:19.644+09:00  INFO 4224 --- [ex25-branch] [http-nio-8020-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T12:39:19.645+09:00  INFO 4224 --- [ex25-branch] [http-nio-8020-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T12:39:51.674+09:00  INFO 4224 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-27T12:39:51.676+09:00  INFO 4224 --- [ex25-branch] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T12:39:51.680+09:00  INFO 4224 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T12:39:51.750+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Starting Ex25BranchApplication using Java 21.0.8 with PID 4224 (D:\s09_springboot\day04_1027\ex25-branch\bin\main started by YONSAI in D:\s09_springboot\day04_1027\ex25-branch)
+2025-10-27T12:39:51.751+09:00 DEBUG 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-10-27T12:39:51.751+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T12:39:51.893+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8020 (http)
+2025-10-27T12:39:51.894+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T12:39:51.894+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T12:39:51.907+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T12:39:51.907+09:00  INFO 4224 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 155 ms
+2025-10-27T12:39:52.004+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T12:39:52.011+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8020 (http) with context path '/'
+2025-10-27T12:39:52.013+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Started Ex25BranchApplication in 0.282 seconds (process running for 135.428)
+2025-10-27T12:39:52.014+09:00  INFO 4224 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T12:43:12.829+09:00  INFO 4224 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-27T12:43:12.830+09:00  INFO 4224 --- [ex25-branch] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T12:43:12.832+09:00  INFO 4224 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T12:43:12.907+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Starting Ex25BranchApplication using Java 21.0.8 with PID 4224 (D:\s09_springboot\day04_1027\ex25-branch\bin\main started by YONSAI in D:\s09_springboot\day04_1027\ex25-branch)
+2025-10-27T12:43:12.907+09:00 DEBUG 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-10-27T12:43:12.908+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T12:43:13.022+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8020 (http)
+2025-10-27T12:43:13.023+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T12:43:13.023+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T12:43:13.033+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T12:43:13.033+09:00  INFO 4224 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 124 ms
+2025-10-27T12:43:13.100+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T12:43:13.106+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8020 (http) with context path '/'
+2025-10-27T12:43:13.107+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Started Ex25BranchApplication in 0.213 seconds (process running for 336.523)
+2025-10-27T12:43:13.108+09:00  INFO 4224 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T12:44:33.381+09:00  INFO 4224 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 7 class path changes (0 additions, 0 deletions, 7 modifications)
+2025-10-27T12:44:33.382+09:00  INFO 4224 --- [ex25-branch] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T12:44:33.384+09:00  INFO 4224 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T12:44:33.453+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Starting Ex25BranchApplication using Java 21.0.8 with PID 4224 (D:\s09_springboot\day04_1027\ex25-branch\bin\main started by YONSAI in D:\s09_springboot\day04_1027\ex25-branch)
+2025-10-27T12:44:33.453+09:00 DEBUG 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-10-27T12:44:33.454+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T12:44:33.582+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8020 (http)
+2025-10-27T12:44:33.583+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T12:44:33.583+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T12:44:33.592+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T12:44:33.593+09:00  INFO 4224 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 138 ms
+2025-10-27T12:44:33.656+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T12:44:33.662+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8020 (http) with context path '/'
+2025-10-27T12:44:33.663+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Started Ex25BranchApplication in 0.224 seconds (process running for 417.079)
+2025-10-27T12:44:33.664+09:00  INFO 4224 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T12:44:45.257+09:00  INFO 4224 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-10-27T12:44:45.258+09:00  INFO 4224 --- [ex25-branch] [Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T12:44:45.259+09:00  INFO 4224 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T12:44:45.319+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Starting Ex25BranchApplication using Java 21.0.8 with PID 4224 (D:\s09_springboot\day04_1027\ex25-branch\bin\main started by YONSAI in D:\s09_springboot\day04_1027\ex25-branch)
+2025-10-27T12:44:45.320+09:00 DEBUG 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-10-27T12:44:45.320+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T12:44:45.425+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8020 (http)
+2025-10-27T12:44:45.425+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T12:44:45.425+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T12:44:45.435+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T12:44:45.435+09:00  INFO 4224 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 114 ms
+2025-10-27T12:44:45.497+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T12:44:45.502+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8020 (http) with context path '/'
+2025-10-27T12:44:45.505+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Started Ex25BranchApplication in 0.198 seconds (process running for 428.92)
+2025-10-27T12:44:45.505+09:00  INFO 4224 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T12:44:54.003+09:00  INFO 4224 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-27T12:44:54.004+09:00  INFO 4224 --- [ex25-branch] [Thread-19] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T12:44:54.005+09:00  INFO 4224 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T12:44:54.066+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Starting Ex25BranchApplication using Java 21.0.8 with PID 4224 (D:\s09_springboot\day04_1027\ex25-branch\bin\main started by YONSAI in D:\s09_springboot\day04_1027\ex25-branch)
+2025-10-27T12:44:54.066+09:00 DEBUG 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-10-27T12:44:54.066+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T12:44:54.180+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8020 (http)
+2025-10-27T12:44:54.180+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T12:44:54.180+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T12:44:54.189+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T12:44:54.189+09:00  INFO 4224 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 122 ms
+2025-10-27T12:44:54.250+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T12:44:54.256+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8020 (http) with context path '/'
+2025-10-27T12:44:54.257+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Started Ex25BranchApplication in 0.203 seconds (process running for 437.673)
+2025-10-27T12:44:54.258+09:00  INFO 4224 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T12:45:02.417+09:00  INFO 4224 --- [ex25-branch] [http-nio-8020-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T12:45:02.417+09:00  INFO 4224 --- [ex25-branch] [http-nio-8020-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T12:45:02.417+09:00  INFO 4224 --- [ex25-branch] [http-nio-8020-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-27T12:46:51.766+09:00  INFO 4224 --- [ex25-branch] [http-nio-8020-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T12:46:51.826+09:00  INFO 4224 --- [ex25-branch] [http-nio-8020-exec-7] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@52465e76
+2025-10-27T12:46:51.828+09:00  INFO 4224 --- [ex25-branch] [http-nio-8020-exec-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T12:46:51.842+09:00 DEBUG 4224 --- [ex25-branch] [http-nio-8020-exec-7] c.n.m.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM student ORDER BY id DESC
+2025-10-27T12:46:51.853+09:00 DEBUG 4224 --- [ex25-branch] [http-nio-8020-exec-7] c.n.m.mapper.StudentMapper.findAll       : ==> Parameters: 
+2025-10-27T12:46:51.866+09:00 DEBUG 4224 --- [ex25-branch] [http-nio-8020-exec-7] c.n.m.mapper.StudentMapper.findAll       : <==      Total: 3
+2025-10-27T12:46:51.932+09:00 ERROR 4224 --- [ex25-branch] [http-nio-8020-exec-7] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8020-exec-7] Exception processing template "student/list": Error resolving template [student/list], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [student/list], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1438) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-10-27T12:46:51.937+09:00 ERROR 4224 --- [ex25-branch] [http-nio-8020-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [student/list], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [student/list], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1438) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-10-27T12:47:05.437+09:00  INFO 4224 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-27T12:47:05.437+09:00  INFO 4224 --- [ex25-branch] [Thread-23] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T12:47:05.439+09:00  INFO 4224 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T12:47:05.440+09:00  INFO 4224 --- [ex25-branch] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T12:47:05.442+09:00  INFO 4224 --- [ex25-branch] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T12:47:05.504+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Starting Ex25BranchApplication using Java 21.0.8 with PID 4224 (D:\s09_springboot\day04_1027\ex25-branch\bin\main started by YONSAI in D:\s09_springboot\day04_1027\ex25-branch)
+2025-10-27T12:47:05.504+09:00 DEBUG 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-10-27T12:47:05.504+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T12:47:05.633+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8020 (http)
+2025-10-27T12:47:05.634+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T12:47:05.634+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T12:47:05.643+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T12:47:05.643+09:00  INFO 4224 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 137 ms
+2025-10-27T12:47:05.724+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T12:47:05.730+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8020 (http) with context path '/'
+2025-10-27T12:47:05.732+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Started Ex25BranchApplication in 0.242 seconds (process running for 569.147)
+2025-10-27T12:47:05.733+09:00  INFO 4224 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T12:47:27.514+09:00  INFO 4224 --- [ex25-branch] [http-nio-8020-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T12:47:27.515+09:00  INFO 4224 --- [ex25-branch] [http-nio-8020-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T12:47:27.515+09:00  INFO 4224 --- [ex25-branch] [http-nio-8020-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-27T12:47:27.516+09:00  INFO 4224 --- [ex25-branch] [http-nio-8020-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-10-27T12:47:27.521+09:00  INFO 4224 --- [ex25-branch] [http-nio-8020-exec-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.mariadb.jdbc.Connection@44085c0c
+2025-10-27T12:47:27.522+09:00  INFO 4224 --- [ex25-branch] [http-nio-8020-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-10-27T12:47:27.522+09:00 DEBUG 4224 --- [ex25-branch] [http-nio-8020-exec-1] c.n.m.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM student ORDER BY id DESC
+2025-10-27T12:47:27.522+09:00 DEBUG 4224 --- [ex25-branch] [http-nio-8020-exec-1] c.n.m.mapper.StudentMapper.findAll       : ==> Parameters: 
+2025-10-27T12:47:27.523+09:00 DEBUG 4224 --- [ex25-branch] [http-nio-8020-exec-1] c.n.m.mapper.StudentMapper.findAll       : <==      Total: 3
+2025-10-27T12:47:27.530+09:00 ERROR 4224 --- [ex25-branch] [http-nio-8020-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8020-exec-1] Exception processing template "student/list": Error resolving template [student/list], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [student/list], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1438) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-10-27T12:47:27.531+09:00 ERROR 4224 --- [ex25-branch] [http-nio-8020-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [student/list], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [student/list], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1103) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1077) ~[thymeleaf-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.renderFragment(ThymeleafView.java:372) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.thymeleaf.spring6.view.ThymeleafView.render(ThymeleafView.java:192) ~[thymeleaf-spring6-3.1.3.RELEASE.jar:3.1.3.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1438) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1168) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1106) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-10-27T12:48:00.810+09:00  INFO 4224 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-10-27T12:48:00.810+09:00  INFO 4224 --- [ex25-branch] [Thread-27] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T12:48:00.812+09:00  INFO 4224 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T12:48:00.813+09:00  INFO 4224 --- [ex25-branch] [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-10-27T12:48:00.814+09:00  INFO 4224 --- [ex25-branch] [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-10-27T12:48:00.875+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Starting Ex25BranchApplication using Java 21.0.8 with PID 4224 (D:\s09_springboot\day04_1027\ex25-branch\bin\main started by YONSAI in D:\s09_springboot\day04_1027\ex25-branch)
+2025-10-27T12:48:00.875+09:00 DEBUG 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-10-27T12:48:00.875+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T12:48:00.968+09:00  WARN 4224 --- [ex25-branch] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'studentMapper' for bean class [com.nyg.mybatis.mapper.StudentMapper] conflicts with existing, non-compatible bean definition of same name and class [com.nyg.mapper.StudentMapper]
+2025-10-27T12:48:00.971+09:00  INFO 4224 --- [ex25-branch] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-27T12:48:00.981+09:00 ERROR 4224 --- [ex25-branch] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'studentMapper' for bean class [com.nyg.mybatis.mapper.StudentMapper] conflicts with existing, non-compatible bean definition of same name and class [com.nyg.mapper.StudentMapper]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate(ClassPathMapperScanner.java:364) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:255) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.scan(ClassPathBeanDefinitionScanner.java:255) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.mybatis.spring.mapper.MapperScannerConfigurer.postProcessBeanDefinitionRegistry(MapperScannerConfigurer.java:406) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:148) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.7.jar:3.5.7]
+	at com.nyg.Ex25BranchApplication.main(Ex25BranchApplication.java:11) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.7.jar:3.5.7]
+
+2025-10-27T12:48:38.942+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Starting Ex25BranchApplication using Java 21.0.8 with PID 4224 (D:\s09_springboot\day04_1027\ex25-branch\bin\main started by YONSAI in D:\s09_springboot\day04_1027\ex25-branch)
+2025-10-27T12:48:38.942+09:00 DEBUG 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-10-27T12:48:38.942+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T12:48:39.033+09:00  WARN 4224 --- [ex25-branch] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'studentMapper' for bean class [com.nyg.mybatis.mapper.StudentMapper] conflicts with existing, non-compatible bean definition of same name and class [com.nyg.mybatis.controller.mapper.StudentMapper]
+2025-10-27T12:48:39.034+09:00  INFO 4224 --- [ex25-branch] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-27T12:48:39.036+09:00 ERROR 4224 --- [ex25-branch] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'studentMapper' for bean class [com.nyg.mybatis.mapper.StudentMapper] conflicts with existing, non-compatible bean definition of same name and class [com.nyg.mybatis.controller.mapper.StudentMapper]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate(ClassPathMapperScanner.java:364) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:255) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.scan(ClassPathBeanDefinitionScanner.java:255) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.mybatis.spring.mapper.MapperScannerConfigurer.postProcessBeanDefinitionRegistry(MapperScannerConfigurer.java:406) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:148) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.7.jar:3.5.7]
+	at com.nyg.Ex25BranchApplication.main(Ex25BranchApplication.java:11) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.7.jar:3.5.7]
+
+2025-10-27T12:48:40.466+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Starting Ex25BranchApplication using Java 21.0.8 with PID 4224 (D:\s09_springboot\day04_1027\ex25-branch\bin\main started by YONSAI in D:\s09_springboot\day04_1027\ex25-branch)
+2025-10-27T12:48:40.466+09:00 DEBUG 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-10-27T12:48:40.466+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T12:48:40.548+09:00  WARN 4224 --- [ex25-branch] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'studentMapper' for bean class [com.nyg.mybatis.mapper.StudentMapper] conflicts with existing, non-compatible bean definition of same name and class [com.nyg.mybatis.controller.mapper.StudentMapper]
+2025-10-27T12:48:40.550+09:00  INFO 4224 --- [ex25-branch] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-27T12:48:40.551+09:00 ERROR 4224 --- [ex25-branch] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'studentMapper' for bean class [com.nyg.mybatis.mapper.StudentMapper] conflicts with existing, non-compatible bean definition of same name and class [com.nyg.mybatis.controller.mapper.StudentMapper]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate(ClassPathMapperScanner.java:364) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:255) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.scan(ClassPathBeanDefinitionScanner.java:255) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.mybatis.spring.mapper.MapperScannerConfigurer.postProcessBeanDefinitionRegistry(MapperScannerConfigurer.java:406) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:148) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609) ~[spring-context-6.2.12.jar:6.2.12]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.7.jar:3.5.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.7.jar:3.5.7]
+	at com.nyg.Ex25BranchApplication.main(Ex25BranchApplication.java:11) ~[main/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.7.jar:3.5.7]
+
+2025-10-27T12:49:01.251+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Starting Ex25BranchApplication using Java 21.0.8 with PID 4224 (D:\s09_springboot\day04_1027\ex25-branch\bin\main started by YONSAI in D:\s09_springboot\day04_1027\ex25-branch)
+2025-10-27T12:49:01.251+09:00 DEBUG 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-10-27T12:49:01.251+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T12:49:01.350+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8020 (http)
+2025-10-27T12:49:01.351+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T12:49:01.351+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T12:49:01.360+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T12:49:01.360+09:00  INFO 4224 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 108 ms
+2025-10-27T12:49:01.421+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T12:49:01.427+09:00  INFO 4224 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8020 (http) with context path '/'
+2025-10-27T12:49:01.429+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Started Ex25BranchApplication in 0.189 seconds (process running for 684.845)
+2025-10-27T12:49:01.429+09:00  INFO 4224 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T12:51:34.368+09:00  INFO 4224 --- [ex25-branch] [RMI TCP Connection(41)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-10-27T12:51:34.368+09:00  INFO 4224 --- [ex25-branch] [RMI TCP Connection(41)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T12:51:34.370+09:00  INFO 4224 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T12:51:35.655+09:00  INFO 12280 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Starting Ex25BranchApplication using Java 21.0.8 with PID 12280 (D:\s09_springboot\day04_1027\ex25-branch\bin\main started by YONSAI in D:\s09_springboot\day04_1027\ex25-branch)
+2025-10-27T12:51:35.656+09:00 DEBUG 12280 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-10-27T12:51:35.657+09:00  INFO 12280 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T12:51:35.685+09:00  INFO 12280 --- [ex25-branch] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-27T12:51:35.685+09:00  INFO 12280 --- [ex25-branch] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-27T12:51:36.310+09:00  INFO 12280 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8020 (http)
+2025-10-27T12:51:36.319+09:00  INFO 12280 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T12:51:36.319+09:00  INFO 12280 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T12:51:36.347+09:00  INFO 12280 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T12:51:36.347+09:00  INFO 12280 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 662 ms
+2025-10-27T12:51:36.756+09:00  INFO 12280 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T12:51:36.779+09:00  INFO 12280 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8020 (http) with context path '/'
+2025-10-27T12:51:36.784+09:00  INFO 12280 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Started Ex25BranchApplication in 1.39 seconds (process running for 1.792)
+2025-10-27T12:51:55.566+09:00  INFO 12280 --- [ex25-branch] [http-nio-8020-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T12:51:55.566+09:00  INFO 12280 --- [ex25-branch] [http-nio-8020-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T12:51:55.567+09:00  INFO 12280 --- [ex25-branch] [http-nio-8020-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T12:51:55.578+09:00  WARN 12280 --- [ex25-branch] [http-nio-8020-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-10-27T12:51:58.906+09:00  INFO 12280 --- [ex25-branch] [http-nio-8020-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T12:51:58.964+09:00  INFO 12280 --- [ex25-branch] [http-nio-8020-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@1da51943
+2025-10-27T12:51:58.965+09:00  INFO 12280 --- [ex25-branch] [http-nio-8020-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T12:51:58.979+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-2] c.n.m.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM student ORDER BY id DESC
+2025-10-27T12:51:58.990+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-2] c.n.m.mapper.StudentMapper.findAll       : ==> Parameters: 
+2025-10-27T12:51:59.003+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-2] c.n.m.mapper.StudentMapper.findAll       : <==      Total: 3
+2025-10-27T12:52:20.492+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-4] c.n.mybatis.mapper.StudentMapper.insert  : ==>  Preparing: INSERT INTO student(NAME, email, age) VALUES (?, ?, ?)
+2025-10-27T12:52:20.494+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-4] c.n.mybatis.mapper.StudentMapper.insert  : ==> Parameters: 홍길동(String), Gildong@naver.com(String), 29(Integer)
+2025-10-27T12:52:20.495+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-4] c.n.mybatis.mapper.StudentMapper.insert  : <==    Updates: 1
+2025-10-27T12:52:20.502+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-5] c.n.m.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM student ORDER BY id DESC
+2025-10-27T12:52:20.502+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-5] c.n.m.mapper.StudentMapper.findAll       : ==> Parameters: 
+2025-10-27T12:52:20.503+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-5] c.n.m.mapper.StudentMapper.findAll       : <==      Total: 4
+2025-10-27T12:52:23.265+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-6] c.n.mybatis.mapper.StudentMapper.delete  : ==>  Preparing: DELETE FROM student WHERE id = ?
+2025-10-27T12:52:23.266+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-6] c.n.mybatis.mapper.StudentMapper.delete  : ==> Parameters: 3(Long)
+2025-10-27T12:52:23.267+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-6] c.n.mybatis.mapper.StudentMapper.delete  : <==    Updates: 1
+2025-10-27T12:52:23.271+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-7] c.n.m.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM student ORDER BY id DESC
+2025-10-27T12:52:23.271+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-7] c.n.m.mapper.StudentMapper.findAll       : ==> Parameters: 
+2025-10-27T12:52:23.272+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-7] c.n.m.mapper.StudentMapper.findAll       : <==      Total: 3
+2025-10-27T12:52:24.167+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-8] c.n.m.mapper.StudentMapper.findById      : ==>  Preparing: SELECT * FROM student WHERE id = ?
+2025-10-27T12:52:24.167+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-8] c.n.m.mapper.StudentMapper.findById      : ==> Parameters: 1(Long)
+2025-10-27T12:52:24.168+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-8] c.n.m.mapper.StudentMapper.findById      : <==      Total: 1
+2025-10-27T12:52:33.241+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-9] c.n.mybatis.mapper.StudentMapper.update  : ==>  Preparing: UPDATE student SET NAME = ?, email = ?, age = ? WHERE id = ?
+2025-10-27T12:52:33.241+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-9] c.n.mybatis.mapper.StudentMapper.update  : ==> Parameters: 김철수(String), chulsu@example.com(String), 25(Integer), 1(Long)
+2025-10-27T12:52:33.242+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-9] c.n.mybatis.mapper.StudentMapper.update  : <==    Updates: 1
+2025-10-27T12:52:33.245+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-10] c.n.m.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM student ORDER BY id DESC
+2025-10-27T12:52:33.246+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-10] c.n.m.mapper.StudentMapper.findAll       : ==> Parameters: 
+2025-10-27T12:52:33.246+09:00 DEBUG 12280 --- [ex25-branch] [http-nio-8020-exec-10] c.n.m.mapper.StudentMapper.findAll       : <==      Total: 3
