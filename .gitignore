@@ -38,3 +38,4 @@ out/
 *.log
 *.log
 logs/app.log
+*.log
