@@ -1187,3 +1187,25 @@ Caused by: java.lang.IllegalArgumentException: Mapped Statements collection alre
 2025-10-27T15:25:01.651+09:00  INFO 1524 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8020 (http) with context path '/'
 2025-10-27T15:25:01.653+09:00  INFO 1524 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Started Ex25BranchApplication in 0.189 seconds (process running for 1147.23)
 2025-10-27T15:25:01.654+09:00  INFO 1524 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-28T11:38:30.850+09:00  INFO 7664 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Starting Ex25BranchApplication using Java 21.0.8 with PID 7664 (D:\work\day_1028\ex25-branch\bin\main started by 나유진 in D:\work\day_1028\ex25-branch)
+2025-10-28T11:38:30.852+09:00 DEBUG 7664 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-10-28T11:38:30.853+09:00  INFO 7664 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-10-28T11:38:30.894+09:00  INFO 7664 --- [ex25-branch] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-28T11:38:30.895+09:00  INFO 7664 --- [ex25-branch] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-28T11:38:32.273+09:00  INFO 7664 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8020 (http)
+2025-10-28T11:38:32.288+09:00  INFO 7664 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-28T11:38:32.288+09:00  INFO 7664 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-28T11:38:32.339+09:00  INFO 7664 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-28T11:38:32.341+09:00  INFO 7664 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1444 ms
+2025-10-28T11:38:33.144+09:00  INFO 7664 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-28T11:38:33.192+09:00  INFO 7664 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8020 (http) with context path '/'
+2025-10-28T11:38:33.203+09:00  INFO 7664 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Started Ex25BranchApplication in 2.768 seconds (process running for 3.644)
+2025-10-28T11:38:40.211+09:00  INFO 7664 --- [ex25-branch] [http-nio-8020-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-28T11:38:40.211+09:00  INFO 7664 --- [ex25-branch] [http-nio-8020-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-28T11:38:40.213+09:00  INFO 7664 --- [ex25-branch] [http-nio-8020-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-28T11:38:40.265+09:00  INFO 7664 --- [ex25-branch] [http-nio-8020-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-28T11:38:40.405+09:00  INFO 7664 --- [ex25-branch] [http-nio-8020-exec-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@26ed1049
+2025-10-28T11:38:40.408+09:00  INFO 7664 --- [ex25-branch] [http-nio-8020-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-28T11:38:40.445+09:00 DEBUG 7664 --- [ex25-branch] [http-nio-8020-exec-1] c.n.m.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM student ORDER BY id DESC
+2025-10-28T11:38:40.467+09:00 DEBUG 7664 --- [ex25-branch] [http-nio-8020-exec-1] c.n.m.mapper.StudentMapper.findAll       : ==> Parameters: 
+2025-10-28T11:38:40.490+09:00 DEBUG 7664 --- [ex25-branch] [http-nio-8020-exec-1] c.n.m.mapper.StudentMapper.findAll       : <==      Total: 2
