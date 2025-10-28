@@ -2,14 +2,9 @@ package com.nyg.mybatis.domain;
 
 import java.time.LocalDateTime;
 
-
-
-
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
-
-
 import lombok.Data;
 
 @Data
@@ -21,14 +16,13 @@ public class Student {
 	private String email;
 
 	@NotBlank(message = "이름은 필수항목")
-	private String name;
+//	private String name;
 	@Email(message = "이메일 형식@ 입력필수")
-	private String email;
+//	private String email;
 	@Min(value = 1, message = "나이는 1세 이상")
 
-
-	private String name;
-	private String email;
+//	private String name;
+//	private String email;
 
 	private Integer age;
 	private LocalDateTime createdAt;
