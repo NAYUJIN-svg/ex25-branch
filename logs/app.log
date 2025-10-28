@@ -1302,3 +1302,33 @@ Caused by: java.lang.IllegalArgumentException: Mapped Statements collection alre
 2025-10-28T14:00:51.663+09:00  INFO 9464 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2025-10-28T14:00:51.724+09:00  INFO 9464 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8020 (http) with context path '/'
 2025-10-28T14:00:51.734+09:00  INFO 9464 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Started Ex25BranchApplication in 2.427 seconds (process running for 3.575)
+2025-10-28T14:06:02.390+09:00  INFO 9464 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-10-28T14:06:02.395+09:00  INFO 9464 --- [ex25-branch] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-28T14:06:02.403+09:00  INFO 9464 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-28T14:06:02.502+09:00  INFO 9464 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Starting Ex25BranchApplication using Java 21.0.8 with PID 9464 (D:\work\day_1028\ex25-branch\bin\main started by 나유진 in D:\work\day_1028\ex25-branch)
+2025-10-28T14:06:02.502+09:00 DEBUG 9464 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-10-28T14:06:02.503+09:00  INFO 9464 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-10-28T14:06:02.814+09:00  INFO 9464 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8020 (http)
+2025-10-28T14:06:02.815+09:00  INFO 9464 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-28T14:06:02.816+09:00  INFO 9464 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-28T14:06:02.839+09:00  INFO 9464 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-28T14:06:02.839+09:00  INFO 9464 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 333 ms
+2025-10-28T14:06:03.004+09:00  INFO 9464 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-28T14:06:03.016+09:00  INFO 9464 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8020 (http) with context path '/'
+2025-10-28T14:06:03.021+09:00  INFO 9464 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Started Ex25BranchApplication in 0.551 seconds (process running for 314.862)
+2025-10-28T14:06:03.025+09:00  INFO 9464 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-28T14:07:10.356+09:00  INFO 9464 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (1 addition, 0 deletions, 1 modification)
+2025-10-28T14:07:10.358+09:00  INFO 9464 --- [ex25-branch] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-28T14:07:10.363+09:00  INFO 9464 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-28T14:07:10.441+09:00  INFO 9464 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Starting Ex25BranchApplication using Java 21.0.8 with PID 9464 (D:\work\day_1028\ex25-branch\bin\main started by 나유진 in D:\work\day_1028\ex25-branch)
+2025-10-28T14:07:10.441+09:00 DEBUG 9464 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-10-28T14:07:10.441+09:00  INFO 9464 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-10-28T14:07:10.661+09:00  INFO 9464 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8020 (http)
+2025-10-28T14:07:10.662+09:00  INFO 9464 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-28T14:07:10.662+09:00  INFO 9464 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-28T14:07:10.685+09:00  INFO 9464 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-28T14:07:10.685+09:00  INFO 9464 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 242 ms
+2025-10-28T14:07:10.833+09:00  INFO 9464 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-28T14:07:10.846+09:00  INFO 9464 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8020 (http) with context path '/'
+2025-10-28T14:07:10.850+09:00  INFO 9464 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Started Ex25BranchApplication in 0.437 seconds (process running for 382.691)
+2025-10-28T14:07:10.854+09:00  INFO 9464 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
