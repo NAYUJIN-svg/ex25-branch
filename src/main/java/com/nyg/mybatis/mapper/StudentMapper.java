@@ -5,6 +5,7 @@ import java.util.List;
 
 
 
+
 import org.apache.ibatis.annotations.Mapper;
 
 
@@ -17,10 +18,15 @@ import org.apache.ibatis.annotations.Update;
 
 
 
+
+import org.apache.ibatis.annotations.Mapper;
+
+
 import com.nyg.mybatis.domain.Student;
 
 @Mapper
 public interface StudentMapper {
+
 
 
 	

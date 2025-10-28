@@ -1,3 +1,4 @@
+
 2025-10-27T12:37:37.257+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Starting Ex25BranchApplication using Java 21.0.8 with PID 4224 (D:\s09_springboot\day04_1027\ex25-branch\bin\main started by YONSAI in D:\s09_springboot\day04_1027\ex25-branch)
 2025-10-27T12:37:37.258+09:00 DEBUG 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Running with Spring Boot v3.5.7, Spring v6.2.12
 2025-10-27T12:37:37.259+09:00  INFO 4224 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : No active profile set, falling back to 1 default profile: "default"
@@ -1955,3 +1956,57 @@ Caused by: java.lang.IllegalArgumentException: Mapped Statements collection alre
 2025-10-28T14:42:46.613+09:00  INFO 9464 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8020 (http) with context path '/'
 2025-10-28T14:42:46.616+09:00  INFO 9464 --- [ex25-branch] [restartedMain] com.nyg.Ex25BranchApplication            : Started Ex25BranchApplication in 0.386 seconds (process running for 2518.456)
 2025-10-28T14:42:46.616+09:00  INFO 9464 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+
+2025-10-28 16:15:01 [restartedMain] INFO  com.nyg.Ex25BranchApplication - Starting Ex25BranchApplication using Java 21.0.8 with PID 21988 (D:\work\day_1028\ex25-branch\bin\main started by 나유진 in D:\work\day_1028\ex25-branch)
+2025-10-28 16:15:01 [restartedMain] INFO  com.nyg.Ex25BranchApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-28 16:15:02 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8020 (http)
+2025-10-28 16:15:02 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-28 16:15:02 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-28 16:15:02 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-28 16:15:02 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 298 ms
+2025-10-28 16:15:02 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-10-28 16:15:02 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8020 (http) with context path '/'
+2025-10-28 16:15:02 [restartedMain] INFO  com.nyg.Ex25BranchApplication - Started Ex25BranchApplication in 0.727 seconds (process running for 318.369)
+2025-10-28 16:15:02 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-10-28 16:15:08 [RMI TCP Connection(16)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-28 16:15:08 [RMI TCP Connection(16)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-28 16:15:08 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-28 16:15:10 [restartedMain] INFO  com.nyg.Ex25BranchApplication - Starting Ex25BranchApplication using Java 21.0.8 with PID 11384 (D:\work\day_1028\ex25-branch\bin\main started by 나유진 in D:\work\day_1028\ex25-branch)
+2025-10-28 16:15:10 [restartedMain] INFO  com.nyg.Ex25BranchApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-28 16:15:10 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-28 16:15:10 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-28 16:15:11 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8020 (http)
+2025-10-28 16:15:11 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8020"]
+2025-10-28 16:15:11 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-28 16:15:11 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-28 16:15:11 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-28 16:15:11 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1349 ms
+2025-10-28 16:15:12 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-10-28 16:15:12 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8020"]
+2025-10-28 16:15:12 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8020 (http) with context path '/'
+2025-10-28 16:15:12 [restartedMain] INFO  com.nyg.Ex25BranchApplication - Started Ex25BranchApplication in 3.416 seconds (process running for 4.152)
+2025-10-28 16:20:13 [RMI TCP Connection(14)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-28 16:20:13 [RMI TCP Connection(14)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-28 16:20:13 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8020"]
+2025-10-28 16:20:13 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-28 16:20:13 [RMI TCP Connection(14)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8020"]
+2025-10-28 16:20:14 [restartedMain] INFO  com.nyg.Ex25BranchApplication - Starting Ex25BranchApplication using Java 21.0.8 with PID 13232 (D:\work\day_1028\ex25-branch\bin\main started by 나유진 in D:\work\day_1028\ex25-branch)
+2025-10-28 16:20:14 [restartedMain] INFO  com.nyg.Ex25BranchApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-28 16:20:14 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-28 16:20:14 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-28 16:20:16 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8020 (http)
+2025-10-28 16:20:16 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8020"]
+2025-10-28 16:20:16 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-28 16:20:16 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-28 16:20:16 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-28 16:20:16 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1289 ms
+2025-10-28 16:20:17 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-10-28 16:20:17 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8020"]
+2025-10-28 16:20:17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8020 (http) with context path '/'
+2025-10-28 16:20:17 [restartedMain] INFO  com.nyg.Ex25BranchApplication - Started Ex25BranchApplication in 2.796 seconds (process running for 3.558)
+2025-10-28 16:21:56 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-10-28 16:21:56 [Thread-5] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-28 16:21:56 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8020"]
+2025-10-28 16:21:56 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-28 16:21:56 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8020"]
+
