@@ -21,7 +21,7 @@ public class DBConnTest {
 			return "DB연결 성공: " + result;
 		} catch (Exception e) {
 			e.printStackTrace();
-			return "DB연결실패";
+			return "DB연결실패했습니다.";
 		}
 	}
 }
