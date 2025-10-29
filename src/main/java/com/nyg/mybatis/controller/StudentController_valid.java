@@ -30,7 +30,7 @@ public class StudentController_valid {
 	public String list(Model model) {
 		model.addAttribute("students", studentService.getAllStudents());
 
-		return "stuent/list_validtest";
+		return "student/list_validtest";
 	}
 
 // 등록폼:form화면: 새로운 학생 정보를 입력하기위한 빈화면.
