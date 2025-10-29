@@ -5,6 +5,7 @@ import java.util.List;
 
 
 
+
 import org.apache.ibatis.annotations.Mapper;
 
 import org.apache.ibatis.annotations.Delete;
@@ -15,24 +16,24 @@ import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 
 
+
+import org.apache.ibatis.annotations.Mapper;
+
+
 import com.nyg.mybatis.domain.Student;
 
 @Mapper
 public interface StudentMapper {
 
-	
-	List<Student> findAll();
 
 	
-	Student findById(Long id);
+	
+
+
 	
 	
-	void insert(Student student);
 	
-	
-	void update(Student student);
-	
-	
+
 
 
 	List<Student> findAll();
@@ -50,6 +51,7 @@ public interface StudentMapper {
 	void update(Student student);
 
 	@Delete("DELETE FROM student WHERE id = #{id}")
+
 
 
 	void delete(Long id);
