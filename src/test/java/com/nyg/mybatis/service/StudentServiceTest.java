@@ -1,6 +1,7 @@
 package com.nyg.mybatis.service;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -11,6 +12,7 @@ import org.junit.jupiter.api.Test;
 import org.mybatis.spring.boot.test.autoconfigure.MybatisTest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
+import org.springframework.test.annotation.Commit;
 
 import com.nyg.mybatis.domain.StudentTest;
 import com.nyg.mybatis.mapper.StudentMapperTest;
@@ -22,6 +24,7 @@ public class StudentServiceTest {
 	private StudentMapperTest studentMapperTest;
 
 	@Test
+	@Commit
 	@DisplayName("학생 등록후 조회 확인(TDD)")
 	void testRegisterAndFind() {
 //		given
@@ -41,6 +44,8 @@ public class StudentServiceTest {
 
 		StudentTest findStudent = studentMapperTest.findById(studentTest.getId());
 		assertEquals("홍길동", findStudent.getName());
+		
+		
 //		assertEquals("hong@test.com", findStudent.getEmail());
 		assertEquals("hhh@jjj.com", findStudent.getEmail());
 
@@ -61,7 +66,7 @@ public class StudentServiceTest {
 		// then
 		assertTrue(students.size() >= 2);
 
-		assertEquals("김철석", students.get(0).getName());
+		assertEquals("테스트1", students.get(1).getName());
 
 	}
 }

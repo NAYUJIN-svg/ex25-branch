@@ -41,21 +41,16 @@ dependencies {
 	testImplementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter-test:3.0.5'
 	
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+	
 }
 
 tasks.named('test') {
 	useJUnitPlatform()
 }
 
-// UTF-8 인코딩 설정
-tasks.withType(JavaCompile) {
-    options.encoding = 'UTF-8'
+test {
+    jvmArgs "-javaagent:${configurations.testRuntimeClasspath.find { it.name.contains('mockito-core') }}"
 }
 
-tasks.withType(Test) {
-    systemProperty "file.encoding", "UTF-8"
-}
 
-tasks.withType(Javadoc) {
-    options.encoding = 'UTF-8'
-}
+
