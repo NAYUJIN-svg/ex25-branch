@@ -2466,3 +2466,9 @@ Caused by: java.lang.IllegalArgumentException: Mapped Statements collection alre
 2025-10-28T17:06:39.364+09:00  INFO 7252 --- [ex25-branch] [http-nio-8020-exec-9] com.nyg.mybatis.aspect.LoggingAspect     : ##### 메서드
  실행성공: List com.nyg.mybatis.service.StudentService.getAllStudents(), 
 결과: [Student(id=7, name=ss, email=sdsd@dfsdf, age=21, createdAt=2025-10-28T17:06:34, updatedAt=2025-10-28T17:06:39), Student(id=5, name=홍길동, email=Gildong@naver.com, age=44, createdAt=2025-10-26T14:53:01, updatedAt=2025-10-27T19:26:56)] #####AfterReturning#####
+2025-10-28T18:10:13.056+09:00  WARN 7252 --- [ex25-branch] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m46s248ms933µs901ns).
+2025-10-28T18:21:59.276+09:00  INFO 7252 --- [ex25-branch] [RMI TCP Connection(68)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-10-28T18:21:59.288+09:00  INFO 7252 --- [ex25-branch] [RMI TCP Connection(68)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-28T18:21:59.298+09:00  INFO 7252 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-28T18:21:59.309+09:00  INFO 7252 --- [ex25-branch] [RMI TCP Connection(68)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-28T18:21:59.314+09:00  INFO 7252 --- [ex25-branch] [RMI TCP Connection(68)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
