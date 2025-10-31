@@ -47,7 +47,7 @@ public class StudentService {
 	public void deleteStudent(Long id) {
 		studentMapper.delete(id);
 	}
-
+// resource 경로에는 정적인 요소 폴더만.
 //	public String getMyString() {
 //		// TODO Auto-generated method stub
 //		return "test";
