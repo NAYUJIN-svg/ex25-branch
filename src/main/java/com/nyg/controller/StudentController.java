@@ -12,7 +12,6 @@ import com.nyg.domain.Student;
 import com.nyg.service.StudentService;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.RequestBody;
 
 @Controller
 @RequestMapping("/students")
